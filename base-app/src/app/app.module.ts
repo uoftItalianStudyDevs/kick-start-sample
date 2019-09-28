@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import { TemplateNameComponent } from './components/template-name/template-name.component';
+import { NewTemplateComponent } from './components/templateName/new-template/new-template.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    TemplateNameComponent,
+    NewTemplateComponent
   ],
   imports: [
     BrowserModule,
